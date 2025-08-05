@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Bike - SpeedX Showroom</title>
+</head>
+<body>
+    <header>
+        <h1>Order Your Bike</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="bikes.html">Bikes</a>
+            <a href="order.html">Order</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Place Your Order</h2>
+        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="address">Address:</label><br>
+            <textarea id="address" name="address" required></textarea><br><br>
+
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone" required><br><br>
+
+            <label for="bike">Select Bike:</label><br>
+            <select id="bike" name="bike">
+                <option value="SpeedX125">SpeedX 125</option>
+                <option value="SpeedX200">SpeedX 200</option>
+                <option value="SpeedX350">SpeedX 350</option>
+            </select><br><br>
+
+            <input type="submit" value="Place Order">
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 SpeedX Bike Showroom. All rights reserved.</p>
+    </footer>
+</body>
+</html>
